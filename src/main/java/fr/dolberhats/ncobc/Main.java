@@ -10,21 +10,19 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Main.MODID)
-public class Main
-{
+public class Main {
 	public static final String MODID = "dolberhats";
 	public static final Logger LOGGER = LogManager.getLogger();
-	
-	public Main()
-	{
+
+	public Main() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		bus.addListener(this::setup);
-		
-		
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
+
 	private void setup(final FMLCommonSetupEvent event) {
-		
+
 	}
-	
+
 }
