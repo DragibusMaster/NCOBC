@@ -1,10 +1,10 @@
 modLoader="javafml" 
-loaderVersion="[44,)"
+loaderVersion="[41,)" 
 license="All rights reserved"
 
 [[mods]] 
 modId="dragibussmaster" 
-version="1.5" 
+version="1.4" 
 displayName="Non Craftable Objects Become Craftable" 
 #logoFile=""
 credits="Thanks to me for making this mod" 
@@ -13,12 +13,12 @@ authors="DragibussMaster"
 [[dependencies.dragibussmaster]] 
     modId="forge" 
     mandatory=true 
-    versionRange="[44.1.0,)"
+    versionRange="[41.1.0,)" 
     ordering="NONE"
     side="BOTH"
 [[dependencies.dragibussmaster]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.3,)"
+    versionRange="[1.19,)"
     ordering="NONE"
     side="BOTH"
